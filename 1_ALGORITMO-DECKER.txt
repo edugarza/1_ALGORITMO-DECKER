@@ -1,0 +1,76 @@
+Script started on 2022-02-16 20:22:19+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="55"]
+]0;eduardo@eduardo-VirtualBox: ~/prpa/1_ALGORITMO-DECKER[01;32meduardo@eduardo-VirtualBox[00m:[01;34m~/prpa/1_ALGORITMO-DECKER[00m$ got o[K[K[K[Kit init
+Initialized empty Git repository in /home/eduardo/prpa/1_ALGORITMO-DECKER/.git/
+]0;eduardo@eduardo-VirtualBox: ~/prpa/1_ALGORITMO-DECKER[01;32meduardo@eduardo-VirtualBox[00m:[01;34m~/prpa/1_ALGORITMO-DECKER[00m$ ls
+01.py  02.py  03.py  04_decker.py  1_ALGORITMO-DECKER.txt
+]0;eduardo@eduardo-VirtualBox: ~/prpa/1_ALGORITMO-DECKER[01;32meduardo@eduardo-VirtualBox[00m:[01;34m~/prpa/1_ALGORITMO-DECKER[00m$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m01.py[m
+	[31m02.py[m
+	[31m03.py[m
+	[31m04_decker.py[m
+	[31m1_ALGORITMO-DECKER.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;eduardo@eduardo-VirtualBox: ~/prpa/1_ALGORITMO-DECKER[01;32meduardo@eduardo-VirtualBox[00m:[01;34m~/prpa/1_ALGORITMO-DECKER[00m$ git add .
+]0;eduardo@eduardo-VirtualBox: ~/prpa/1_ALGORITMO-DECKER[01;32meduardo@eduardo-VirtualBox[00m:[01;34m~/prpa/1_ALGORITMO-DECKER[00m$ git st[K[Kcommit -m "commit inicial"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'eduardo@eduardo-VirtualBox.(none)')
+]0;eduardo@eduardo-VirtualBox: ~/prpa/1_ALGORITMO-DECKER[01;32meduardo@eduardo-VirtualBox[00m:[01;34m~/prpa/1_ALGORITMO-DECKER[00m$ git config --global user.email eduardo[K[K[K[Kgarza@cu[K[Kucme[K.es
+]0;eduardo@eduardo-VirtualBox: ~/prpa/1_ALGORITMO-DECKER[01;32meduardo@eduardo-VirtualBox[00m:[01;34m~/prpa/1_ALGORITMO-DECKER[00m$ git config --global user.email edugarza@ucm.es[Kgit branch
+[?1h=[K[?1l>]0;eduardo@eduardo-VirtualBox: ~/prpa/1_ALGORITMO-DECKER[01;32meduardo@eduardo-VirtualBox[00m:[01;34m~/prpa/1_ALGORITMO-DECKER[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   01.py[m
+	[32mnew file:   02.py[m
+	[32mnew file:   03.py[m
+	[32mnew file:   04_decker.py[m
+	[32mnew file:   1_ALGORITMO-DECKER.txt[m
+
+]0;eduardo@eduardo-VirtualBox: ~/prpa/1_ALGORITMO-DECKER[01;32meduardo@eduardo-VirtualBox[00m:[01;34m~/prpa/1_ALGORITMO-DECKER[00m$ git statusbranchconfig --global user.email edugarza@ucm.es[16Pmmit -m "commit inicial"
+[master (root-commit) c39cd71] commit inicial
+ 5 files changed, 187 insertions(+)
+ create mode 100644 01.py
+ create mode 100644 02.py
+ create mode 100644 03.py
+ create mode 100644 04_decker.py
+ create mode 100644 1_ALGORITMO-DECKER.txt
+]0;eduardo@eduardo-VirtualBox: ~/prpa/1_ALGORITMO-DECKER[01;32meduardo@eduardo-VirtualBox[00m:[01;34m~/prpa/1_ALGORITMO-DECKER[00m$ git push prig[K[K[K[Korigin ,[Kmaster[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kremote add origin git@github.com:edugarza/1_ALGORITMO-DECKER.git
+]0;eduardo@eduardo-VirtualBox: ~/prpa/1_ALGORITMO-DECKER[01;32meduardo@eduardo-VirtualBox[00m:[01;34m~/prpa/1_ALGORITMO-DECKER[00m$ git remote add origin git@github.com:edugarza/1_ALGORITMO-DECKER.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[38Pcommit -m "commit inicial"remote add origin git@github.com:edugarza/1_ALGORITMO-DECKER.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit push -u origin ,ast[K[K[K[Kmaster
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;eduardo@eduardo-VirtualBox: ~/prpa/1_ALGORITMO-DECKER[01;32meduardo@eduardo-VirtualBox[00m:[01;34m~/prpa/1_ALGORITMO-DECKER[00m$ git push -u origin master
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 1.04 KiB | 1.04 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), done.[K
+To github.com:edugarza/1_ALGORITMO-DECKER.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;eduardo@eduardo-VirtualBox: ~/prpa/1_ALGORITMO-DECKER[01;32meduardo@eduardo-VirtualBox[00m:[01;34m~/prpa/1_ALGORITMO-DECKER[00m$ exit
+
+Script done on 2022-02-16 20:30:15+01:00 [COMMAND_EXIT_CODE="0"]
